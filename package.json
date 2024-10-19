@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dns-packet": "^5.6.1",
+    "nodemon": "^3.1.7",
+    "pnpm": "^9.12.2"
+  }
+}
