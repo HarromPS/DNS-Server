@@ -1,0 +1,16 @@
+{
+    "db":{
+        "hellobaccho.dev": {
+            "type": "A",
+            "data": "1.2.3.4"
+        },
+        "123.hellobaccho.com": {
+            "type": "CNAME",
+            "data": "abc.hello.com"
+        },
+        "abc.hello.com": {
+            "type": "A",
+            "data": "2.3.1.4"
+        }
+    }
+}

@@ -8,20 +8,8 @@ const dgram = require('node:dgram');
 const server = dgram.createSocket('udp4');  // it can be udp4 or udp6
 
 // database of domain name and IP addresses  
-const db = {
-    "hellobaccho.dev":{
-        type:'A',
-        data:"1.2.3.4"
-    },
-    "123.hellobaccho.com":{
-        type:'CNAME',
-        data:"abc.hello.com"
-    },
-    "abc.hello.com":{
-        type:'A',
-        data:"2.3.1.4"
-    }
-}
+const config = require("./dnsRecords.json");
+const db = config.db;
 
 // so what to do when a message/query comes on server 
 server.on('message', (msg, remoteInfo)=>{
