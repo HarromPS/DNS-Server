@@ -131,17 +131,6 @@ Change your DNS server's IP address and port by modifying the `config.js` file.
 
 ## 🌟 Some Notes
 
-## When we create a server why function name is createSocket?
-
-The function name `createSocket` is used because a **socket** represents one endpoint of a two-way communication link between two programs running on a network. In networking, a socket is the mechanism that allows data to be sent and received between client and server machines. 
-
-### Why "createSocket"?
-- **Socket Creation**: The term `createSocket` indicates that a new communication socket is being established to handle network communication. This function creates a socket object that is bound to an IP address and port, allowing the server to listen for and respond to incoming client connections.
-  
-- **Abstraction**: The term "socket" abstracts the complexity of the underlying TCP/UDP protocols and other low-level networking details, simplifying the process of sending and receiving data over a network.
-
-In summary, **`createSocket`** signifies the creation of a communication channel (socket) through which the server can exchange data with clients over the network.
-
 ## Types of DNS Records
 
 Here are some of the main types of DNS records:
