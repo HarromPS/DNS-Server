@@ -200,7 +200,7 @@ Contributions are always welcome! Please follow these steps to contribute:
 
 ### 🌐 Stay Connected
 
-- **GitHub**: [yourusername](https://github.com/HarromPS/)
+- **GitHub**: [HarromPS](https://github.com/HarromPS/)
 - **Linkedin**: [@yourhandle](https://www.linkedin.com/in/hariom-shivhare-a32803290/)
 
 ---
